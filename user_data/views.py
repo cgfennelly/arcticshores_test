@@ -18,10 +18,11 @@ class ScoreListCreate(generics.ListCreateAPIView):
 
 
 
-#Code commented out as 'get score by candidate' endpoint not functioning correctly.
-#Using method prefetch_related did not work as expected
-#The SQL query below works correctly when querying sqlite3 directly, but is not functioning correctly when passed via django
-
+'''
+Code commented out as 'get score by candidate' endpoint not functioning correctly.
+Using method prefetch_related did not work as expected
+The SQL query below works correctly when querying sqlite3 directly, but is not functioning correctly when passed via django
+'''
 # class GetScoreListByCandidate(generics.ListAPIView):
 #     serializer_class = CandidateSerializer
 
