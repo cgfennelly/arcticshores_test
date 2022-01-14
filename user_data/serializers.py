@@ -10,4 +10,4 @@ class CandidateSerializer(serializers.ModelSerializer):
 class ScoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Score
-        fields = ('candidate_ref', 'score')
+        fields = ('score_ref', 'candidate_ref', 'score')

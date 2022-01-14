@@ -8,6 +8,7 @@ class Candidate(models.Model):
 
 
 class Score(models.Model):
+    score_ref = models.IntegerField(primary_key=True)
     candidate_ref = models.ForeignKey(Candidate, on_delete=models.CASCADE)
     score = models.FloatField(
         validators=[MinValueValidator(0), MaxValueValidator(100)],
