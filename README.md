@@ -5,6 +5,7 @@
 This exercise is not complete, and the immediate tasks which would need to be worked on next are:
 - Completing the 'get-candidate' endpoint.
 - Incorporating unit tests.
+
 Further tasks to improve the usability of this api include:
 - Add a landing page for '/' and 'api/' endpoints
 - Update the regex validator on candidate_ref to only accept alphanumeric inputs
